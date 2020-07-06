@@ -1,15 +1,16 @@
 {
-  "name": "toasty",
+  "name": "babufrik",
   "version": "0.1.2",
   "homepage": "https://github.com/rubentd/toasty",
-  "description": "Show Dan Forden's Toasty from Mortal Kombat as an Easter Egg for your website",
+  "description": "Show babu frik ho hoy",
   "authors": [
-    "Ruben Torres"
+    "Facundo Monpelat"
   ],
   "keywords": [
-    "toasty",
-    "dan",
-    "easteregg"
+   "babu frik",
+   "Star Wars",
+   "Babu",
+   "frik"
   ],
   "main": [
     "jquery.toasty.min.js",

@@ -21,8 +21,8 @@
  			//Add to dom needed elements
  			$("body").append('<div id="toasty-guy-dan"><img src="'+ this.options.image +'" alt="toasty"></div>');
 			$('#toasty-guy-dan').css('position', 'fixed');
-			$('#toasty-guy-dan').css('right', '-170px');
-			$('#toasty-guy-dan').css('bottom', '0px');
+			$('#toasty-guy-dan').css('right', '20px');
+			$('#toasty-guy-dan').css('bottom', '-210px');
 			if(this.options.sound){
 				$("body").append('<audio id="toasty-audio"><source src="'+ this.options.sound +'" type="audio/mpeg"></source></audio>');
  			}
@@ -31,8 +31,9 @@
  		pop: function(){
  			var audio = document.getElementById('toasty-audio');
 			audio.play();
+			console.log("babuuu");
 			$("#toasty-guy-dan").addClass("show-dan");
-			setTimeout( function(){ $("#toasty-guy-dan").removeClass("show-dan"); }, 1000);
+			setTimeout( function(){ $("#toasty-guy-dan").removeClass("show-dan");}, 1000);
  		}
 
  	}
@@ -62,8 +63,8 @@
 
 	$.fn.toasty.defaults = {
  		sound: true,
- 		image: 'toasty.png',
- 		sound: 'toasty.mp3'
+ 		image: 'babufrik.gif',
+ 		sound: 'babu-frik.mp3'
  	};
 
 })(jQuery);
