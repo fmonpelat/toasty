@@ -33,7 +33,7 @@
 			audio.play();
 			console.log("babuuu");
 			$("#toasty-guy-dan").addClass("show-dan");
-			setTimeout( function(){ $("#toasty-guy-dan").removeClass("show-dan");}, 1000);
+			setTimeout( function(){ $("#toasty-guy-dan").removeClass("show-dan");}, 3000);
  		}
 
  	}
@@ -63,8 +63,8 @@
 
 	$.fn.toasty.defaults = {
  		sound: true,
- 		image: 'babufrik.gif',
- 		sound: 'babu-frik.mp3'
+ 		image: 'toasty/babufrik.gif',
+ 		sound: 'toasty/babu-frik.mp3'
  	};
 
 })(jQuery);
